@@ -14,7 +14,7 @@ spec:
     spec:
       automountServiceAccountToken: false
       containers:
-      - image: vani0909/supermariogitopsproject:${{ versionTag }}
+      - image: vani0909/supermariogitopsproject:2
         name: supermariogame-container
         ports:
         - containerPort: 8080
